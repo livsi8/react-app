@@ -1,8 +1,8 @@
 import React from 'react';
-import { Article } from './Article';
+import Article from './Article';
 import articles from '../fixtures';
 
-export function App() {
+export default function App() {
     return(
         <div>
             <h1>App name</h1>
